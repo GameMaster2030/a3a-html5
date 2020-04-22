@@ -1,0 +1,42 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    line-height: 1.6
+}
+
+.active {
+    color: gray!important;
+}
+
+a:link {
+    color: blue;
+    text-underline: black;
+}
+
+a:visited {
+    color: blue;
+    text-underline: black;
+}
+
+a:hover: {
+    color: darkblue;
+    text-underline: gray;
+}
+
+.blue {
+    color: blue!important;
+}
+
+.red {
+    color: red!important;
+}
+
+.green {
+    color: green!important;
+}
+
+.orange {
+    color: orange!important;
+}
