@@ -1,0 +1,25 @@
+{
+  "name": "html5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GameMaster2030/a3a-html5.git"
+  },
+  "author": "Kevin Lam",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/GameMaster2030/a3a-html5/issues"
+  },
+  "homepage": "https://github.com/GameMaster2030/a3a-html5#readme"
+}
