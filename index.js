@@ -6,33 +6,19 @@ const express = require("express"),
 const app = express();
 app.use(express.static("public"));
 app.set('view engine', 'hbs');
-app.listen(3100);
-console.log("Express listening on port: 3100");
+app.listen(process.env.PORT || 3000);
+console.log("Express is listening");
 
 // Routers
 // Home page
-app.get("/", (req, res) => {
+app.get(["/", "/index.html", "/index", "/pagina1", "/pagina1.html"], (req, res) => {
 	res.render("index");
 });
 
-app.get("/index.html", (req, res) => {
-	res.render("index");
-});
-
-// Pagina 2
-app.get("/pagina2", (req, res) => {
+app.get(["/pagina2", "/pagina2.html"], (req, res) => {
 	res.render("page2");
 });
 
-app.get("/pagina2.html", (req, res) => {
-	res.render("page2");
-});
-
-// Pagina 3
-app.get("/pagina3", (req, res) => {
-	res.render("page3");
-});
-
-app.get("/pagina3.html", (req, res) => {
+app.get(["/pagina3", "/pagina3.html"], (req, res) => {
 	res.render("page3");
 });
