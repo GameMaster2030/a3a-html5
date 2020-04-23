@@ -22,3 +22,22 @@ app.get(["/pagina2", "/pagina2.html"], (req, res) => {
 app.get(["/pagina3", "/pagina3.html"], (req, res) => {
 	res.render("page3");
 });
+
+// 14 day system
+app.get(["/dag:day/", "/dag:day/index.html"], (req, res) => {
+    res.render(`day${req.params.day}/index`);
+});
+
+app.get(["/dag:day/pagina2", "/dag:day/pagina2.html"], (req, res) => {
+    res.render(`day${req.params.day}/page2`);
+});
+
+app.get(["/dag:day/pagina3", "/dag:day/pagina3.html"], (req, res) => {
+    res.render(`day${req.params.day}/page3`);
+});
+
+// 404 Page
+app.use((req, res) => {
+    res.status(400);
+    res.render("day2/404.hbs");
+});

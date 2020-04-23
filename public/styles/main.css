@@ -10,19 +10,14 @@ p {
     color: gray!important;
 }
 
-a:link {
+a:link, a:visited {
     color: blue;
     text-underline: black;
 }
 
-a:visited {
-    color: blue;
-    text-underline: black;
-}
-
-a:hover: {
-    color: darkblue;
-    text-underline: gray;
+a:hover {
+    color: darkblue!important;
+    text-underline: gray!important;
 }
 
 .blue {
