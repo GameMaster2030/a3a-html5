@@ -15,10 +15,12 @@ app.get(["/", "/index.html", "/index", "/pagina1", "/pagina1.html"], (req, res) 
 	res.render("index");
 });
 
+// Second page
 app.get(["/pagina2", "/pagina2.html"], (req, res) => {
 	res.render("page2");
 });
 
+// Third page
 app.get(["/pagina3", "/pagina3.html"], (req, res) => {
 	res.render("page3");
 });
