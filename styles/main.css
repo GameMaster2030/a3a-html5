@@ -1,0 +1,93 @@
+body {
+    background-color: lightblue;
+}
+
+.header {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: darkblue;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 0px;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu .active {
+    background-color: red;
+    color: white;
+}
+
+img {
+    float: right;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+figure {
+    float: right;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.content {
+    padding: 15px;
+    max-width: 100%;
+    background-color: white;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 5px;
+    background-color: darkblue;
+    text-align: right;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    clear: both;
+}
+
+a.bottom:link, a.bottom:hover, a.bottom:visited{
+    color: white;
+}
+
+a.bottom:hover {
+    background-color: darkblue;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px red solid;
+    padding: 3px;
+    margin: 18px;
+}
